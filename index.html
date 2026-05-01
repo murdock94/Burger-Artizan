@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@100..900&display=swap">
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Burger Artisan</title>
+</head>
+<script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo" data-target="#home">
+                <span>Burger</span>
+                <span class="second_logo">Artizan</span>
+            </div>
+            <nav class="navegation">
+                <ul class="nav_list" id="movement_page">
+                    <li><button data-target="#home">Início</button></li>
+                    <li><button data-target="#about">Sobre</button></li>
+                    <li><button data-target="#menu">Cardápio</button></li>
+                    <li><button data-target="#gallery">Galeria</button></li>
+                    <li><button data-target="#contact">Contato</button></li>
+                </ul>
+            </nav>
+            <div class="social_icons">
+
+                <a href="https://wa.me/5534996369042?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre..."> <i
+                        class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/?hl=pt-br" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <div id="movement_page">
+                    <button data-target="#contact">Fala Conosco</button>
+                </div>
+            </div>
+
+            <div class="mobile_icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu_mobile ">
+        <nav class="mobile_navegation">
+            <ul id="movement_page">
+                <li><button data-target="#home">Início</button></li>
+                <li><button data-target="#about">Sobre</button></li>
+                <li><button data-target="#menu">Cardápio</button></li>
+                <li><button data-target="#gallery">Galeria</button></li>
+                <li><button data-target="#contact">Contato</button></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="hero" id="home">
+
+        <button class="btn_cart">
+            <div class="items_in_cart">
+                <span>1</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-shopping-cart text-[#ff8c19]" aria-hidden="true">
+                <circle cx="8" cy="21" r="1"></circle>
+                <circle cx="19" cy="21" r="1"></circle>
+                <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12">
+                </path>
+            </svg>
+        </button>
+
+        <div class="hero_content">
+            <div class="container">
+
+                <div class="text_box">
+                    <h1>Hambúrgueres</h1>
+                    <span>Artesanais</span>
+                    <span>de Verdade</span>
+
+                    <p>Ingredientes selecionados, receitas exclusivas e muito sabor em cada mordida.</p>
+
+                    <div id="movement_page" class="container_btn_headline">
+                        <button class="btn_primary" data-target="#menu">Ver Cardápio</button>
+                        <button class="btn_secondary" data-target="#contact">Fazer Pedido</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrow_down">
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="title_section">
+                <h2>Nossa História</h2>
+                <hr>
+                <p>No Burger Artisan, acreditamos que um bom hambúrguer é mais do que apenas uma refeição – é uma
+                    experiência. Fundada em 2020, nossa missão é trazer hambúrgueres artesanais de verdade para quem
+                    aprecia qualidade e sabor autêntico.</p>
+            </div>
+
+            <div class="container_items_history">
+                <div class="content_history">
+                    <div class="icon_history">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-flame text-[#ff8c19]" aria-hidden="true" x-file-name="About"
+                            x-line-number="7" x-column="12" x-component="Flame" x-id="About_7_12" x-dynamic="false">
+                            <path
+                                d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="desc_history">
+                        <h3 title="history_title">Qualidade Premium</h3>
+                        <p>Carnes selecionadas e ingredientes de primeira linha</p>
+                    </div>
+                </div>
+
+                <div class="content_history">
+                    <div class="icon_history">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-award text-[#ff8c19]" aria-hidden="true" x-file-name="About"
+                            x-line-number="12" x-column="12" x-component="Award" x-id="About_12_12" x-dynamic="false">
+                            <path
+                                d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+                            </path>
+                            <circle cx="12" cy="8" r="6"></circle>
+                        </svg>
+                    </div>
+                    <div class="desc_history">
+                        <h3 title="history_title">Feito na Hora</h3>
+                        <p>Cada hambúrguer é preparado no momento do seu pedido</p>
+                    </div>
+                </div>
+
+                <div class="content_history">
+                    <div class="icon_history">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-leaf text-[#ff8c19]" aria-hidden="true" x-file-name="About"
+                            x-line-number="17" x-column="12" x-component="Leaf" x-id="About_17_12" x-dynamic="false">
+                            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z">
+                            </path>
+                            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+                        </svg>
+                    </div>
+                    <div class="desc_history">
+                        <h3 title="history_title">100% Natural</h3>
+                        <p>Sem conservantes, corantes ou aditivos artificiais</p>
+                    </div>
+                </div>
+
+                <div class="content_history">
+                    <div class="icon_history">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-heart text-[#ff8c19]" aria-hidden="true" x-file-name="About"
+                            x-line-number="22" x-column="12" x-component="Heart" x-id="About_22_12" x-dynamic="false">
+                            <path
+                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="desc_history">
+                        <h3 title="history_title">Feito com Amor</h3>
+                        <p>Receitas artesanais desenvolvidas com paixão</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container_number_history">
+                <div class="title_number_history">
+                    <h2>4+</h2>
+                    <span>Anos de História</span>
+                </div>
+
+                <div class="title_number_history">
+                    <h2>20+</h2>
+                    <span>Opções no Menu</span>
+                </div>
+
+                <div class="title_number_history">
+                    <h2>5000+</h2>
+                    <span>Clientes Felizes</span>
+                </div>
+
+                <div class="title_number_history">
+                    <h2>100%</h2>
+                    <span>Artesanal</span>
+                </div>
+
+            </div><!--number_history-->
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="title_section">
+                <h2>Nosso Cardápio</h2>
+                <hr>
+                <p>
+                    Descubra nossa seleção de hambúrgueres artesanais, acompanhamentos e bebidas especiais
+                </p>
+            </div>
+
+            <div class="container_menu">
+                <div class="nav_menu">
+                    <button class="btn_nav_menu active" data-category="todos">Todos</button>
+                    <button class="btn_nav_menu" data-category="hamburgueres">Hambúrgueres</button>
+                    <button class="btn_nav_menu" data-category="acompanhamentos">Acompanhamentos</button>
+                    <button class="btn_nav_menu" data-category="bebidas">Bebidas</button>
+                    <button class="btn_nav_menu" data-category="sobremesas">Sobremesas</button>
+                </div>
+            </div>
+
+            <div id="products_container"></div>
+
+            <div class="container_panel">
+
+                <div class="container_items_panel"></div><!--container_items_panel-->
+                <div class="pagination">
+                    <button id="prev">Anterior</button>
+                    <div id="numbers"></div>
+                    <button id="next">Próximo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="galery" id="gallery">
+        <div class="container">
+            <div class="title_section">
+                <h2>Galeria</h2>
+                <hr>
+                <p> Veja nossos hambúrgueres artesanais em detalhes</p>
+            </div>
+            <!-- -->
+            <div class="container_carrousel">
+                <div class="embla">
+                    <div class="embla__viewport">
+                        <div class="embla__container" id="emblaContainer">
+                            <!-- Slides vão ser inseridos via JS -->
+                        </div>
+                    </div>
+
+                    <button class="embla__prev">◀</button>
+                    <button class="embla__next">▶</button>
+
+                    <div class="embla__dots"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="comments">
+        <div class="container">
+            <div class="title_section">
+                <h2>O Que Dizem Nossos Clientes</h2>
+                <hr>
+                <p>Avaliações reais de quem já experimentou nossos hambúrgueres</p>
+            </div>
+            <div class="comments_container">
+
+                <div class="comment_item">
+                    <div class="star_container">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>"Melhor hambúrguer artesanal que já comi! A carne é suculenta e os ingredientes
+                        fresquíssimos."</span>
+                    <div class="client_container">
+                        <div class="img_client_comments">
+                            <img src="src/image/image_usuario.png" alt="">
+                        </div>
+                        <div class="desc_client">
+                            <h4>Marcos Rangel</h4>
+                            <span>Client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment_item">
+                    <div class="star_container">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>"Ambiente incrível e atendimento excepcional. O Bacon Supreme é sensacional!"</span>
+                    <div class="client_container">
+                        <div class="img_client_comments">
+                            <img src="src/image/image_usuario.png" alt="">
+                        </div>
+                        <div class="desc_client">
+                            <h4>Carlos Eduardo</h4>
+                            <span>Client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment_item">
+                    <div class="star_container">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>"Simplesmente perfeito! Virei cliente fiel. Recomendo o Double Smash."</span>
+                    <div class="client_container">
+                        <div class="img_client_comments">
+                            <img src="src/image/image_usuario.png" alt="">
+                        </div>
+                        <div class="desc_client">
+                            <h4>Maria Costa</h4>
+                            <span>Client</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment_item">
+                    <div class="star_container">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>"Melhor hambúrguer artesanal que já comi! A carne é suculenta e os ingredientes
+                        fresquíssimos."</span>
+                    <div class="client_container">
+                        <div class="img_client_comments">
+                            <img src="src/image/image_usuario.png" alt="">
+                        </div>
+                        <div class="desc_client">
+                            <h4>Roberto Mendes</h4>
+                            <span>Client</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="form_contact" id="contact">
+        <div class="container">
+            <div class="title_section">
+                <h2>Entre em Contato</h2>
+                <hr>
+                <p>Faça seu pedido ou tire suas dúvidas. Estamos aqui para te atender!</p>
+            </div>
+
+            <div class="form_container">
+                <div class="contact">
+
+                    <div class="contact_item">
+                        <div class="icon_contact">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div class="desc_contact">
+                            <h4>WhatsApp</h4>
+                            <a
+                                href="https://wa.me/5534996369042?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre..."><span>(34)99636-9042</span></a>
+                        </div>
+                    </div>
+
+                    <div class="contact_item">
+                        <div class="icon_contact">
+                            <a href="http://gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                        <div class="desc_contact">
+                            <h4>E-mail</h4>
+                            <span>contato@burgerartisan.com.br</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_item">
+                        <div class="icon_contact">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="desc_contact">
+                            <h4>Endereço</h4>
+                            <span>Av Umuarama,287 - Valim de Mello, Uberaba- MG</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_item">
+                        <div class="icon_contact">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <div class="desc_contact">
+                            <h4>Horário</h4>
+                            <span>Ter-Dom: 18h às 23h</span>
+                            <p>Segunda Fechado</p>
+                        </div>
+                    </div>
+
+                    <div class="contact_item">
+                        <a class="icon_footer" href="https://www.facebook.com" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a class="icon_footer" href="https://www.instagram.com/?hl=pt-br" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="form">
+                    <h3>Envie sua Mensagem</h3>
+
+                    <input id="name" type="text" placeholder="Seu Nome">
+                    <input id="phone" type="tel" placeholder="Seu telefone">
+                    <input id="email" type="email" placeholder="Seu E-mail">
+                    <textarea id="message" placeholder="Sua mensagem..."></textarea>
+
+                    <button id="sendWhats">Enviar Mensagem</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="footer_item">
+                    <div class="logo" data-target="#home">
+                        <span>Burger</span>
+                        <span class="second_logo">Artizan</span>
+                    </div>
+
+                    <span class="sub_title">Hambúrgueres Artesanais de Verdade</span>
+
+                    <div class="social_footer">
+                        <a class="icon_footer" href="https://www.facebook.com" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a class="icon_footer" href="https://www.instagram.com/?hl=pt-br" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="nav_footer">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><button data-target="#home">Início</button></li>
+                        <li><button data-target="#about">Sobre</button></li>
+                        <li><button data-target="#menu">Cardápio</button></li>
+                        <li><button data-target="#contact">Contato</button></li>
+                    </ul>
+                </div>
+                <div class="footer_contact">
+                    <h4>Contato</h4>
+                    <div class="footer_adrees">
+                        <span><i class="fa-brands fa-whatsapp"></i>(34) 99636-9042</span>
+                        <span><i class="fa-solid fa-envelope"></i>contato@burgerartisan.com.br</span>
+                        <span>Av Umuarama, 123 - Valim de Mello, Uberaba - MG
+                            Ter-Dom: 18h às 23h</span>
+                    </div>
+                </div>
+            </div>
+            <div class="line_footer"></div>
+            <div class="copy_container">
+                <p class="copy">
+                    © 2026 Burger Artisan. Feito com
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-heart text-[#ff8c19] fill-[#ff8c19]" aria-hidden="true">
+                        <path
+                            d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                        </path>
+                    </svg>
+                    para amantes de hambúrgueres
+                    <br>
+                    Todos os direitos reservados a Marcos Rangel.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="container_text">
+
+        <modal class="shopping_cart">
+            <div class="container_wrapper ">
+
+                <div class="cart_container">
+
+                    <div class="title_container_cart">
+                        <div class="title_cart">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-shopping-cart text-[#ff8c19]"
+                                aria-hidden="true">
+                                <circle cx="8" cy="21" r="1"></circle>
+                                <circle cx="19" cy="21" r="1"></circle>
+                                <path
+                                    d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12">
+                                </path>
+                            </svg>
+                            <h4>Meu Carrinho</h4>
+                        </div>
+                        <div class="close_cart">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-x h-4 w-4" aria-hidden="true">
+                                <path d="M18 6 6 18"></path>
+                                <path d="m6 6 12 12"></path>
+                            </svg>
+                        </div>
+
+                    </div>
+
+                    <div class="cart_item_container">
+
+                        <!--
+                   
+                    <div class="item_cart">
+                        <div class="desc_item">
+                            <div class="image_cart">
+                                <img src="src/image/img red-line.jpeg" alt="">
+                            </div>
+                            <div class="title_item_cart">
+                                <div class="desc_item_cart">
+                                    <h4>Plus-Artezanal</h4>
+                                    <span class="price_item_cart">R$ 32,00</span>
+                                    <div class="btn_amout">
+                                        <button class="btn_up_amout">+</button>
+                                        <span class="amout_item_cart">2</span>
+                                        <button class="btn_down_amout">-</button>
+                                    </div>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2"
+                                    aria-hidden="true">
+                                    <path d="M3 6h18"></path>
+                                    <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path>
+                                    <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path>
+                                    <line x1="10" x2="10" y1="11" y2="17"></line>
+                                    <line x1="14" x2="14" y1="11" y2="17"></line>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                   
+                 -->
+                    </div>
+                </div>
+
+                <div class="result_container">
+
+                    <div class="checkout_inputs">
+                        <input type="text" id="client_name" placeholder="Seu nome">
+                        <input type="text" id="client_address" placeholder="Endereço de entrega">
+
+                        <select id="payment_method">
+                            <option value="">Forma de pagamento</option>
+                            <option value="Dinheiro">Dinheiro</option>
+                            <option value="Pix">Pix</option>
+                            <option value="Cartão">Cartão</option>
+                        </select>
+
+                        <textarea id="order_obs" placeholder="Observação (opcional)"></textarea>
+                    </div>
+
+                    <div class="result_amout">
+                        <div class="total_item">
+                            <h4>Total</h4>
+                            <span>R$150,00</span>
+                        </div>
+                    </div>
+
+                    <button class="btn_finalize">
+                        Enviar Pedido via WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+        </modal>
+
+
+    </div>
+
+
+
+    <script src="src/JavaScript/Data_products.js"></script>
+    <script src="src/JavaScript/RenderProduct.js"></script>
+    <script src="src/JavaScript/App.js"></script>
+    <script src="src/JavaScript/Carousel.js"></script>
+    <script src="src/JavaScript/ShoppingCart.js"></script>
+    <script src="src/JavaScript/FinalizeOrder.js"></script>
+
+</body>
+
+</html>

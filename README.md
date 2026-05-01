@@ -3,7 +3,7 @@
 Landing page moderna para hamburgueria com cardápio dinâmico, carrinho de compras e finalização de pedidos via WhatsApp.
 
 ## 🚀 Demonstração
-👉 (coloque aqui o link do GitHub Pages depois)
+👉  https://murdock94.github.io/Burger-Artizan/
 
 ---
 

@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function eventListeners() {
         if (btnMenuMobile) btnMenuMobile.addEventListener('click', menuToggle);
         window.addEventListener('resize', hideMenu);
-        //window.addEventListener('scroll', actualPage);
+        window.addEventListener('scroll', actualPage);
     }
 
     //  INIT

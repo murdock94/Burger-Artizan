@@ -944,7 +944,7 @@ footer {
 .shopping_cart {
     position: fixed;
     top: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: rgba(39, 39, 39, 0.616);
     z-index: 10;
